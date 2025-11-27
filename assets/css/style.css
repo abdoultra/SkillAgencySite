@@ -1,0 +1,53 @@
+/* Global grid background */
+body {
+  background-color: #ffffff;
+  background-image: 
+      linear-gradient(#dbe9ff 1px, transparent 1px),
+      linear-gradient(90deg, #dbe9ff 1px, transparent 1px);
+  background-size: 35px 35px;
+
+  font-family: "Luckiest Guy", cursive;
+}
+
+/* Header */
+.sa-header {
+  background: white;
+  border-bottom: 1px solid #ddd;
+}
+
+.sa-menu li {
+  list-style: none;
+}
+
+.sa-menu a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+}
+
+.sa-menu a:hover {
+  opacity: .6;
+}
+
+/* Yellow content card */
+.sa-card-yellow {
+  background: #ffe79a;
+  padding: 30px;
+  border-radius: 20px;
+  max-width: 550px;
+}
+
+/* IMG thumbnails */
+.sa-img-placeholder {
+  background: #f1f1f1;
+  border: 2px solid #ccc;
+  border-radius: 12px;
+  padding: 40px 0;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+/* Footer */
+.sa-footer {
+  border-top: 1px solid #ddd;
+}
