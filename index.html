@@ -99,6 +99,15 @@
 </footer>
 
 <script src="./assets/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  // Diagnostic helper — ouvre la console et vérifie la présence de Bootstrap
+  try {
+    console.log('Bootstrap global:', typeof bootstrap !== 'undefined' ? 'present' : 'missing');
+    console.log('Bootstrap Carousel available:', typeof (bootstrap && bootstrap.Carousel) !== 'undefined');
+  } catch (e) {
+    console.error('Bootstrap diagnostic error', e);
+  }
+</script>
 </body>
-  
+
 </html>
