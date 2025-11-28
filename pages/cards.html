@@ -1,74 +1,121 @@
 <!doctype html>
 <html lang="en" data-bs-theme="auto">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>The Cards — Skills Agency</title>
-    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="../assets/css/style.css" rel="stylesheet" />
-    <link href="../assets/css/carousel.css" rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The Cards — Skills Agency</title>
 
-  </head>
-  <body>
-    <header class="sa-header">
-      <nav class="container d-flex justify-content-between align-items-center py-3">
-        <a href="/index.html" class="sa-logo">
-          <img src="../assets/img/logo.png" alt="logo">
-        </a>
+  <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="../assets/css/style.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+</head>
 
-        <button class="navbar-toggler d-md-none" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+<body>
 
-        <ul id="menu" class="sa-menu collapse navbar-collapse d-md-flex gap-4">
-          <li><a href="rules.html">Rules of the game</a></li>
-          <li><a href="cards.html">The cards</a></li>
-          <li><a href="faq.html">FAQ</a></li>
-          <li><a href="authors.html">Authors</a></li>
-        </ul>
+<header class="sa-header">
+  <nav class="container d-flex justify-content-between align-items-center py-3">
+    <a href="/index.html" class="sa-logo">
+      <img src="../assets/img/logo.png" alt="logo">
+    </a>
+    <button class="navbar-toggler d-md-none" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-        <div class="sa-search d-none d-md-block">
-          <button class="search-emoji" aria-label="Search">🔍</button>
-        </div>
-      </nav>
-      <div class="sa-divider"></div>
-    </header>
+    <ul id="menu" class="sa-menu collapse navbar-collapse d-md-flex gap-4">
+      <li><a href="rules.html">Rules of the game</a></li>
+      <li><a href="cards.html">The cards</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+      <li><a href="authors.html">Authors</a></li>
+    </ul>
 
-   <main class="container mt-5 pt-5">
+    <div class="sa-search d-none d-md-block">
+      <button class="search-emoji">🔍</button>
+    </div>
+  </nav>
+  <div class="sa-divider"></div>
+</header>
+
+<main class="container mt-5 pt-4">
 
   <h1 class="display-4 fw-bold text-center mb-5">THE CARDS</h1>
 
-  <h3 class="fw-bold">CV Cards</h3>
-  <div class="sa-card-yellow mb-5">
-    <p>Each CV card represents a unique talent with different skills:</p>
-    <ul>
-      <li>Hard skills</li>
-      <li>Soft skills</li>
-      <li>Special abilities</li>
-    </ul>
-  </div>
+  <!-- CV CARDS -->
+  <section class="sa-card-row">
+    <div class="sa-card-content sa-bg-yellow">
+      <div class="sa-card-label sa-bg-pink">CV CARDS</div>
 
-  <h3 class="fw-bold">Mission Cards</h3>
-  <div class="sa-card-yellow mb-5">
-    <p>Each mission requires specific skills. Win duels by having the best team.</p>
-  </div>
+      <h5 class="fw-bold mb-3">What they are:</h5>
+      <ul>
+        <li>CV cards represent the talents you can recruit.</li>
+        <li>Each has:</li>
+        <ul>
+          <li>Hard skills</li>
+          <li>Soft skills</li>
+          <li>Special abilities</li>
+        </ul>
+      </ul>
 
-  <h3 class="fw-bold">Skill Boost Cards</h3>
-  <div class="sa-card-yellow">
-    <p>Play these cards to temporarily boost your team's skills during a mission.</p>
-  </div>
+      <h5 class="fw-bold mt-4">What they do:</h5>
+      <p>Players recruit CV cards to build a team of talents for missions.</p>
+    </div>
+
+    <div class="sa-card-images">
+      <img src="../assets/img/placeholder-card.png" class="sa-card-img angle-left">
+      <img src="../assets/img/placeholder-card.png" class="sa-card-img angle-right">
+    </div>
+  </section>
+
+
+  <!-- MISSION CARDS -->
+  <section class="sa-card-row">
+    <div class="sa-card-content sa-bg-yellow">
+      <div class="sa-card-label sa-bg-pink">MISSION CARDS</div>
+
+      <h5 class="fw-bold mb-3">What they are:</h5>
+      <p>Mission cards describe the task your team must complete.</p>
+
+      <h5 class="fw-bold mt-4">What they do:</h5>
+      <p>They challenge your strategy. Choose wisely which talents fit best.</p>
+    </div>
+
+    <div class="sa-card-images">
+      <img src="../assets/img/placeholder-card.png" class="sa-card-img angle-right">
+    </div>
+  </section>
+
+
+  <!-- SKILL BOOST CARDS -->
+  <section class="sa-card-row">
+    <div class="sa-card-content sa-bg-yellow">
+      <div class="sa-card-label sa-bg-pink">SKILL BOOST CARDS</div>
+
+      <h5 class="fw-bold mb-3">What they are:</h5>
+      <p>Special cards used occasionally for scoring or enhancing your team.</p>
+
+      <h5 class="fw-bold mt-4">What they do:</h5>
+      <ul>
+        <li>Add bonus points</li>
+        <li>Boost skills</li>
+        <li>Change the course of a round</li>
+      </ul>
+    </div>
+
+    <div class="sa-card-images">
+      <img src="../assets/img/placeholder-card.png" class="sa-card-img angle-left">
+      <img src="../assets/img/placeholder-card.png" class="sa-card-img angle-right">
+    </div>
+  </section>
 
 </main>
 
-     <footer class="sa-footer text-center mt-5 py-4">
-    <div class="sa-divider"></div>
-      <img src="../assets/img/logo.png"  width="60" class="mb-2">
-      <p>© 2025 Skills Agency. All rights reserved.</p>
-    </footer>
+<footer class="sa-footer text-center mt-5 py-4">
+  <div class="sa-divider"></div>
+  <img src="../assets/img/logo.png" width="60" class="mb-2">
+  <p>© 2025 Skills Agency. All rights reserved.</p>
+</footer>
 
-    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
-  </body>
+<script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>

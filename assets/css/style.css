@@ -295,3 +295,59 @@ FAQ
 .sa-thanks-card h5 {
   margin-bottom: 10px;
 }
+/* ===== THE CARDS PAGE ===== */
+
+.sa-card-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  margin-bottom: 80px;
+}
+
+.sa-card-content {
+  background: #fff9d7;
+  padding: 35px;
+  border-radius: 20px;
+  flex: 1;
+  position: relative;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.sa-bg-yellow { background: #ffe9a9; }
+.sa-bg-pink   { background: #f7a8ff; }
+
+.sa-card-label {
+  padding: 8px 18px;
+  border-radius: 10px;
+  font-weight: bold;
+  position: absolute;
+  top: -18px;
+  left: 15px;
+}
+
+.sa-card-images {
+  display: flex;
+  gap: 20px;
+}
+
+.sa-card-img {
+  width: 150px;
+  height: 210px;
+  border-radius: 14px;
+  background: #e5e5e5;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.angle-left { transform: rotate(-10deg); }
+.angle-right { transform: rotate(8deg); }
+
+@media (max-width: 768px) {
+  .sa-card-row {
+    flex-direction: column;
+    text-align: center;
+  }
+  .sa-card-images {
+    justify-content: center;
+  }
+}
