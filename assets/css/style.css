@@ -1,11 +1,14 @@
 /* Global grid background */
-body {
-  background-color: #ffffff;
-  background-image: linear-gradient(#dbe9ff 1px, transparent 1px),
-    linear-gradient(90deg, #dbe9ff 1px, transparent 1px);
-  background-size: 35px 35px;
-
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button{
   font-family: "Luckiest Guy", cursive;
+  letter-spacing: 1px;
 }
 
 /* Header */
