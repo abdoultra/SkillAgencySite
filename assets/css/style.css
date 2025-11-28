@@ -229,4 +229,69 @@ FAQ
 .sa-faq-blue { background: #a9d8ff; }
 .sa-faq-pink { background: #f7a8c9; }
 .sa-faq-green { background: #a6f4a6; }
+/* AUTHORS PAGE ----------------------------------------- */
 
+.sa-author-card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.sa-author-pic {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 15px;
+  border-radius: 50%;
+  background: #eee;
+  border: 4px solid white;
+  box-shadow: 0 0 0 4px rgba(0,0,0,0.05);
+}
+
+.sa-author-card h5 {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.sa-author-card p {
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.3;
+  margin-top: 5px;
+}
+
+/* Color overrides */
+.sa-yellow { border-top: 6px solid #ffe79a; }
+.sa-blue   { border-top: 6px solid #a9d8ff; }
+.sa-pink   { border-top: 6px solid #f7a8c9; }
+.sa-green  { border-top: 6px solid #a6f4a6; }
+
+/* BIG CARD (white rounded box with icon) */
+.sa-author-bigcard {
+  background: #fff;
+  padding: 40px;
+  border-radius: 20px;
+  max-width: 900px;
+  margin: auto;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+.sa-bigcard-icon {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+/* Thanks cards */
+.sa-thanks-card {
+  background: white;
+  border-radius: 16px;
+  padding: 25px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+.sa-thanks-card h5 {
+  margin-bottom: 10px;
+}

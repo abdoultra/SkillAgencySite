@@ -1,70 +1,139 @@
 <!doctype html>
 <html lang="en" data-bs-theme="auto">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Authors — Skills Agency</title>
-    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="../assets/css/style.css" rel="stylesheet" />
-    <link href="../assets/css/carousel.css" rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Authors — Skills Agency</title>
 
-  </head>
-  <body>
-    <header class="sa-header">
-      <nav class="container d-flex justify-content-between align-items-center py-3">
-  <a href="/index.html" class="sa-logo">
-    <img src="../assets/img/logo.png" alt="logo">
-  </a>
+  <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="../assets/css/style.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+</head>
 
-        <button class="navbar-toggler d-md-none" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+<body>
 
-        <ul id="menu" class="sa-menu collapse navbar-collapse d-md-flex gap-4">
-          <li><a href="rules.html">Rules of the game</a></li>
-          <li><a href="cards.html">The cards</a></li>
-          <li><a href="faq.html">FAQ</a></li>
-          <li><a href="authors.html">Authors</a></li>
-        </ul>
+<header class="sa-header">
+  <nav class="container d-flex justify-content-between align-items-center">
+    <a href="/index.html" class="sa-logo">
+      <img src="../assets/img/logo.png" alt="logo">
+    </a>
 
-        <div class="sa-search d-none d-md-block">
-          <button class="search-emoji" aria-label="Search">🔍</button>
-        </div>
-      </nav>
-      <div class="sa-divider"></div>
-    </header>
+    <button class="navbar-toggler d-md-none" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-    <main class="container mt-5 pt-4 text-center">
-      <h1 class="display-6 mb-4">Meet the Creators</h1>
+    <ul id="menu" class="sa-menu collapse navbar-collapse d-md-flex gap-4">
+      <li><a href="rules.html">Rules of the game</a></li>
+      <li><a href="cards.html">The cards</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+      <li><a href="authors.html">Authors</a></li>
+    </ul>
 
-      <div class="row g-4 justify-content-center">
-        <div class="col-sm-6 col-md-3">
-          <div class="p-3 bg-white rounded shadow-sm">
-            <div class="mb-2 sa-img-placeholder rounded-circle" style="padding:30px 0;">IMG</div>
-            <h5>Author Name</h5>
-            <p class="mb-0">Role / short bio</p>
-          </div>
-        </div>
+    <div class="sa-search d-none d-md-block">
+      <button class="search-emoji" aria-label="Search">🔍</button>
+    </div>
+  </nav>
+  <div class="sa-divider"></div>
+</header>
 
-        <div class="col-sm-6 col-md-3">
-          <div class="p-3 bg-white rounded shadow-sm">
-            <div class="mb-2 sa-img-placeholder rounded-circle" style="padding:30px 0;">IMG</div>
-            <h5>Author Name</h5>
-            <p class="mb-0">Role / short bio</p>
-          </div>
+<main class="container mt-5 pt-4 text-center">
+
+  <h1 class="display-6 mb-5">MEET THE CREATORS</h1>
+
+  <!-- AUTHORS GRID -->
+  <div class="row g-4 justify-content-center">
+
+    <!-- CARD 1 -->
+    <div class="col-sm-6 col-lg-3">
+      <div class="sa-author-card sa-yellow">
+        <div class="sa-author-pic"></div>
+        <h5>Adrien Pero</h5>
+        <p>Card Designer<br>Created all card designs and layouts.</p>
+      </div>
+    </div>
+
+    <!-- CARD 2 -->
+    <div class="col-sm-6 col-lg-3">
+      <div class="sa-author-card sa-blue">
+        <div class="sa-author-pic"></div>
+        <h5>Priya Mary PUSHPANATHAN</h5>
+        <p>Rules Writer<br>Created all game rules and balancing.</p>
+      </div>
+    </div>
+
+    <!-- CARD 3 -->
+    <div class="col-sm-6 col-lg-3">
+      <div class="sa-author-card sa-pink">
+        <div class="sa-author-pic"></div>
+        <h5>TRAORE Abdoulaye</h5>
+        <p>Add-On Developer<br>Built the Skill Boost system and expansions.</p>
+      </div>
+    </div>
+
+    <!-- CARD 4 -->
+    <div class="col-sm-6 col-lg-3">
+      <div class="sa-author-card sa-green">
+        <div class="sa-author-pic"></div>
+        <h5>Bass SAMBE</h5>
+        <p>Web Designer<br>Created the official website and pages.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- TEAM TEXT BOX -->
+  <div class="sa-author-bigcard mt-5">
+    <div class="sa-bigcard-icon">🎨</div>
+    <p>
+      We are a small creative team who loves design, innovation, 
+       bringing ideas to life. We created this game to make recruiting 
+       more fun, more strategic, and full of surprising twists.
+       After many tests, improvements, and late-night brainstorming,
+        we're excited to finally share it with you!
+    </p>
+  </div>
+
+  <!-- THANKS SECTION -->
+  <div class="sa-author-bigcard mt-5">
+    <div class="sa-bigcard-icon">💗</div>
+
+    <h4 class="mb-4">Thanks</h4>
+
+    <div class="row justify-content-center g-4">
+      <div class="col-sm-6 col-lg-4">
+        <div class="sa-thanks-card">
+          <h5>Playtesters</h5>
+          <p>
+            To everyone who tested, challenged, and improved the game
+            - thank you for your energy, ideas, and game-breaking discoveries.”
+          </p>
         </div>
       </div>
-    </main>
 
-    <footer class="sa-footer text-center mt-5 py-4">
-    <div class="sa-divider"></div>
-      <img src="../assets/img/logo.png"  width="60" class="mb-2">
-      <p>© 2025 Skills Agency. All rights reserved.</p>
-    </footer>
+      <div class="col-sm-6 col-lg-4">
+        <div class="sa-thanks-card">
+          <h5>Advisors & Mentors</h5>
+          <p>
+            Thank you to all the instructors
+            and professionals who guided us, shared feedback,
+             and helped shape the final experience.
+          </p>
+        </div>
+      </div>
+    </div>
 
-    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
-  </body>
+  </div>
+
+</main>
+
+<footer class="sa-footer text-center mt-5 py-4">
+  <div class="sa-divider"></div>
+  <img src="../assets/img/logo.png" width="60" class="mb-2">
+  <p>© 2025 Skills Agency. All rights reserved.</p>
+</footer>
+
+<script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
