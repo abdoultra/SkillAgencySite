@@ -94,7 +94,15 @@ button{
   background: #ffe79a;
   padding: 60px;
   border-radius: 20px;
+  width: 100%;
+  box-sizing: border-box; /* ensure padding doesn't exceed container */
+}
+
+/* Narrow modifier: keep the original max-width for the first page */
+.sa-card--narrow {
   max-width: 750px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* IMG thumbnails */
