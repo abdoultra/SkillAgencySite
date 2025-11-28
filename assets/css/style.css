@@ -192,3 +192,41 @@ button{
   height: 12px;
   padding: 0;
 }
+/************************************************
+FAQ
+************************************************/
+/* FAQ colored cards */
+.sa-faq-card {
+  padding: 32px 40px;
+  border-radius: 20px;
+  color: #000;
+  font-weight: 600;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  margin-bottom: 22px;
+}
+
+/* Title inside the card */
+.sa-faq-card h5 {
+  margin: 0;
+  font-size: 22px;
+}
+
+/* Content box (white area below the question) */
+.sa-faq-answer {
+  background: #ffffff;
+  margin-top: 16px;
+  padding: 22px 26px;
+  border-radius: 16px;
+  font-family: Arial, sans-serif;
+  letter-spacing: 0;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+/* Colors from your mockup */
+.sa-faq-yellow { background: #ffe79a; }
+.sa-faq-blue { background: #a9d8ff; }
+.sa-faq-pink { background: #f7a8c9; }
+.sa-faq-green { background: #a6f4a6; }
+
